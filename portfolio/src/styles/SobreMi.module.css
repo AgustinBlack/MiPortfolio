@@ -1,0 +1,25 @@
+.sobreMiDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    width: 67%;
+}
+
+.sobreMiTitulo{
+    margin-top: 0 !important;
+}
+
+.expDiv{
+    border: 2px solid #2f2b2b;
+    border-radius: 5px;
+    padding: 7px 20px;
+    background-color: #2f2b2b;
+}
+
+.expInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 20px;
+}

@@ -1,0 +1,28 @@
+.proyectoDivPadre{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.proyectoDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.proyectoNombre{
+    border-bottom: 1.6px solid #fff;    
+    transition: all 0.6s ease;  
+    margin-top: 0 !important; 
+}
+
+.proyectoImg{
+    width: 400px;
+    margin-top: 10px;
+}
+
+.proyectoLinks{
+    color: #fff;
+    text-decoration: none;
+}

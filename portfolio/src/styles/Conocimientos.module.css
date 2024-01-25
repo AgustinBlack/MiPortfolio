@@ -1,0 +1,23 @@
+.divPadre{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conocimientosDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.conocimientoLogos{
+    padding: 5px;
+}
+
+.conocimientoLogos:hover{
+    background-color: #2f2b2b;
+    transition: all 0.6s ease;
+    border-radius: 8px;
+    transform: scale(1.1);
+}

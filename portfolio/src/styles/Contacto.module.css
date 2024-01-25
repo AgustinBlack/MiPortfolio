@@ -1,0 +1,19 @@
+.contactoDiv{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 0px 50px;
+}
+
+.contactoIconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.contactoTexto{
+    margin-block-start: 5px !important;
+    margin-block-end: 0 !important;
+}

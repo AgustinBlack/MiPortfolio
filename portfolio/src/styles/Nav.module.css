@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.navDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+}
+
+.navLink{
+    color: white;
+    border: 1.6px solid black;
+    background-color: #2f2b2b;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+:root{
+    --color: #fff;
+}
+
+.navLink:hover{
+    box-shadow: 0 0 20px var(--color);
+    border-color: var(--color);
+    transform: scale(1.1);
+    transition: ease 1s;
+}
+
+.navLink span:nth-child(n){
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border: 1.6px solid;
+    transition: all 0.6s ease;
+}
+
+.navLink span:nth-child(1){
+    right: 10%;
+    top: -18%;
+    background-color: #fff;
+}
+
+.navLink span:nth-child(2){
+    left: 10%;
+    bottom: -18%;
+    background-color: #2f2b2b;
+}
+
+.navLink:hover span:nth-child(1){
+    right: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+    background-color: var(--color);
+}
+
+.navLink:hover span:nth-child(2){
+    left: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+}
