@@ -24,7 +24,7 @@
     gap: 20px;
 }
 
-@media (max-width: 412px) {   
+@media (max-width: 415px) {   
     .sobreMiTitulo{
         margin: 0 !important;
     }
