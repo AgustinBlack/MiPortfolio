@@ -89,11 +89,13 @@
     }
     
     .navLink{
-        width: 135px;
-        font-size: smaller;
+        width: 167px;
+        font-size: larger;
+        height: 50px;
+        align-items: center;
     }
 
     .logo{
-        width: 15%;
+        width: 20%;
     }
 }

@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
+    <>
     <div className={clases.appDiv}>
       <BrowserRouter>
         <NavBar/>
@@ -21,7 +22,9 @@ function App() {
         </Routes>
         <Footer/>
       </BrowserRouter>
-    </div>
+    </div>    
+    </>
+
   )
 }
 

@@ -16,6 +16,7 @@ import firebase from "../assets/icons8-firebase-96.png"
 
 const Conocimientos = () => {
     return (
+    <>
     <div className={clases.divPadre}>
         <div className={clases.conocimientosDiv}>
             <a href="https://lenguajehtml.com/"><img className={clases.conocimientoLogos} src={html} alt="" /></a>
@@ -35,7 +36,9 @@ const Conocimientos = () => {
             <a href="https://www.adobe.com/ar/products/premiere.html"><img className={clases.conocimientoLogos} src={pr} alt="" /></a>
             <a href="https://getbootstrap.com/"><img className={clases.conocimientoLogos} src={bootstrap} alt="" /></a>           
         </div>
-    </div>    
+    </div>      
+    </>    
+  
     )
 }
 
