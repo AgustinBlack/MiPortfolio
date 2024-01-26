@@ -2,8 +2,14 @@
 
 .appDiv{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 375px) {
+    .appDiv{
+        flex-direction: column;
+    }
 }

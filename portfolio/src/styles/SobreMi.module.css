@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 30px;
     color: #fff;
-    width: 67%;
+    width: 60%;
 }
 
 .sobreMiTitulo{
@@ -22,4 +22,29 @@
     flex-direction: row;
     align-items: baseline;
     gap: 20px;
+}
+
+@media (max-width: 375px) {   
+    .sobreMiTitulo{
+        margin: 0 !important;
+    }
+
+    .expInfo{
+        flex-direction: column;
+        gap: 0;
+        padding-top: 10px;
+    }
+
+    .expDiv{
+        width: 287px;
+    }
+
+    .sobreMiDiv{
+        align-items: center;
+    }
+
+    .sobreMiTitulo{
+        padding-top: 10px;
+        width: 238px;
+    }
 }

@@ -11,25 +11,29 @@ import figma from "../assets/icons8-figura-96.png"
 import ph from "../assets/icons8-adobe-photoshop-96.png"
 import ai from "../assets/icons8-adobe-illustrator-96.png"
 import pr from "../assets/icons8-adobe-premiere-pro-96.png"
+import bootstrap from "../assets/icons8-oreja-96.png"
+import firebase from "../assets/icons8-firebase-96.png"
 
 const Conocimientos = () => {
     return (
     <div className={clases.divPadre}>
         <div className={clases.conocimientosDiv}>
-            <img className={clases.conocimientoLogos} src={html} alt="" />
-            <img className={clases.conocimientoLogos} src={css} alt="" />
-            <img className={clases.conocimientoLogos} src={sass} alt="" />
-            <img className={clases.conocimientoLogos} src={javaScript} alt="" />
-            <img className={clases.conocimientoLogos} src={react} alt="" />
-            <img className={clases.conocimientoLogos} src={git} alt="" />
+            <a href="https://lenguajehtml.com/"><img className={clases.conocimientoLogos} src={html} alt="" /></a>
+            <a href="https://lenguajecss.com/css/"><img className={clases.conocimientoLogos} src={css} alt="" /></a>
+            <a href="https://sass-lang.com/"><img className={clases.conocimientoLogos} src={sass} alt="" /></a>
+            <a href="https://lenguajejs.com/"><img className={clases.conocimientoLogos} src={javaScript} alt="" /></a>
+            <a href="https://react.dev/"><img className={clases.conocimientoLogos} src={react} alt="" /></a>
+            <a href="https://git-scm.com/"><img className={clases.conocimientoLogos} src={git} alt="" /></a>
+            <a href="https://firebase.google.com/?hl=es"><img className={clases.conocimientoLogos} src={firebase} alt="" /></a>
         </div>
         <div className={clases.conocimientosDiv}>
-            <img className={clases.conocimientoLogos} src={github} alt=""/>
-            <img className={clases.conocimientoLogos} src={node} alt="" />
-            <img className={clases.conocimientoLogos} src={figma} alt="" />
-            <img className={clases.conocimientoLogos} src={ph} alt="" />
-            <img className={clases.conocimientoLogos} src={ai} alt="" />
-            <img className={clases.conocimientoLogos} src={pr} alt="" />            
+            <a href="https://github.blog/"><img className={clases.conocimientoLogos} src={github} alt=""/></a>
+            <a href="https://nodejs.org/en"><img className={clases.conocimientoLogos} src={node} alt="" /></a>
+            <a href="https://www.figma.com/"><img className={clases.conocimientoLogos} src={figma} alt="" /></a>
+            <a href="https://www.adobe.com/ar/products/photoshop.html"><img className={clases.conocimientoLogos} src={ph} alt="" /></a>
+            <a href="https://www.adobe.com/ar/products/illustrator.html"><img className={clases.conocimientoLogos} src={ai} alt="" /></a>
+            <a href="https://www.adobe.com/ar/products/premiere.html"><img className={clases.conocimientoLogos} src={pr} alt="" /></a>
+            <a href="https://getbootstrap.com/"><img className={clases.conocimientoLogos} src={bootstrap} alt="" /></a>           
         </div>
     </div>    
     )

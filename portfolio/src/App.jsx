@@ -9,7 +9,6 @@ import SobreMi from './components/SobreMi'
 import Footer from './components/Footer'
 
 function App() {
-
   return (
     <div className={clases.appDiv}>
       <BrowserRouter>
