@@ -31,7 +31,7 @@
     display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     .inicioDiv{
         flex-direction: column;
         padding: 8px;

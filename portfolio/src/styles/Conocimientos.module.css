@@ -24,7 +24,7 @@
     transform: scale(1.1);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     .divPadre{
         width: 80%;
         flex-direction: row;
