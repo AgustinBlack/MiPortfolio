@@ -26,10 +26,10 @@
 
 @media (max-width: 415px) {
     .divPadre{
-        width: 80%;
+        width: 70%;
         flex-direction: row;
         justify-content: flex-end;
-        gap: 60px;
+        gap: 50px;
     }
 
     .conocimientosDiv{

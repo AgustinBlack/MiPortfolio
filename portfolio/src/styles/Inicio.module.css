@@ -34,7 +34,7 @@
 @media (max-width: 415px) {
     .inicioDiv{
         flex-direction: column;
-        padding: 8px;
+        padding: 20px 10px;
         width: 286px;
     }
     
@@ -57,5 +57,9 @@
 
     .inicioImg{
         width: 125px;
+    }
+
+    .img{
+        width: 70%;
     }
 }

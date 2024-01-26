@@ -9,19 +9,19 @@ const Footer = () => {
     return (
         <div className={clase.contactoDiv}>
                 <div className={clases.contactoOpciones}>
-                    <a href=""><img src={mail} alt="Gmail"/></a>
+                    <a className={clases.img} href=""><img src={mail} alt="Gmail"/></a>
                     <p className={clases.contactoTexto}>agustinBlack08@gmail.com</p> 
                 </div>
                 <div className={clases.contactoOpciones}>
-                    <a href=""><img src={telefono} alt="Telefono"/></a>
+                    <a className={clases.img} href=""><img src={telefono} alt="Telefono"/></a>
                     <p className={clases.contactoTexto}>11-4475-8749</p>
                 </div>                
                 <div className={clases.contactoOpciones}>
-                    <a href="https://github.com/AgustinBlack"><img src={github} alt="GitHub"/></a>
+                    <a className={clases.img} href="https://github.com/AgustinBlack"><img src={github} alt="GitHub"/></a>
                     <p className={clases.contactoTexto}>AgustinBlack</p>
                 </div>
                 <div className={clases.contactoOpciones}>
-                    <a href="https://www.linkedin.com/in/agustin-black-134083245/"><img src={linkedin} alt="Linkedin"/></a>
+                    <a className={clases.img} href="https://www.linkedin.com/in/agustin-black-134083245/"><img src={linkedin} alt="Linkedin"/></a>
                     <p className={clases.contactoTexto}>Agustin Black</p>
                 </div>
         </div>
