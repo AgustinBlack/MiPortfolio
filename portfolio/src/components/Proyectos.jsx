@@ -9,17 +9,17 @@ const Proyectos = () => {
                 <div className={clases.proyectoDiv}>
                     <h3 className={clases.proyectoNombre}>Eco Cambios</h3>
                     <a className={clases.proyectoLinks} href="https://ecocambios.netlify.app/">Hace click aca para visitar el sitio!</a>
-                    <img src={ecoCambios} alt="" className={clases.proyectoImg}/>
+                    <a href="https://ecocambios.netlify.app/"><img src={ecoCambios} alt="" className={clases.proyectoImg}/></a>
                 </div>
                 <div className={clases.proyectoDiv}>
                     <h3 className={clases.proyectoNombre}>Mini Copito</h3>
                     <a className={clases.proyectoLinks} href="https://minicopito.netlify.app/">Hace click aca para visitar el sitio!</a>
-                    <img src={miniCopito} alt="" className={clases.proyectoImg}/>
+                    <a href="https://minicopito.netlify.app/"><img src={miniCopito} alt="" className={clases.proyectoImg}/></a>
                 </div>                
                 <div className={clases.proyectoDiv}>
                     <h3 className={clases.proyectoNombre}>Cafeteria</h3>
                     <a className={clases.proyectoLinks} href="https://modelocafe.netlify.app/">Hace click aca para visitar el sitio!</a>
-                    <img src={cafeteria} alt="" className={clases.proyectoImg}/>
+                    <a href="https://modelocafe.netlify.app/"><img src={cafeteria} alt="" className={clases.proyectoImg}/></a>
                 </div>
                 {/* <div className={clases.proyectoDiv}>
                     <h3 className={clases.proyectoNombre}>FutClothes</h3>
