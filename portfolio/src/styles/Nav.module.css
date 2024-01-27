@@ -80,6 +80,7 @@
 @media (max-width: 415px){
     .navDiv{
         gap: 10px;
+        border-right: none;
     }
     
     .navLinks{
@@ -89,7 +90,7 @@
     }
     
     .navLink{
-        width: 167px;
+        width: 160px;
         font-size: larger;
         height: 50px;
         align-items: center;
