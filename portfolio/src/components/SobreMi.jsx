@@ -6,7 +6,7 @@ const SobreMi = () => {
             <h2 className={clases.sobreMiTitulo}>Experiencia Laboral</h2>
             <div className={clases.expDiv}>
                 <div className={clases.expInfo}>
-                    <h3 className={clases.expNombre}>Ojo Blindado</h3>   
+                    <h3 className={clases.expNombre}>Ojo Blindado - SRL</h3>   
                     <p>Mayo 2023 - Actualidad</p> 
                 </div>
                 <p className={clases.expTexto}>Es una empresa que se encarga de la personalización y administración de canales de Youtube, en su mayoría de música. Mi labor en la  empresa es darle el mismo estilo a todas las descripciones de los videos, edición y publicación de los mismos.</p>
