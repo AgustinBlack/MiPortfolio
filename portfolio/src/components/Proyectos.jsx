@@ -2,6 +2,7 @@ import clases from "../styles/Proyectos.module.css"
 import cafeteria from "../assets/cafeteria.png"
 import miniCopito from "../assets/mini-copito.png"
 import ecoCambios from "../assets/eco-cambios.png"
+import futclothes from "../assets/futclothes.png"
 
 const Proyectos = () => {
     return (
@@ -21,11 +22,11 @@ const Proyectos = () => {
                     <a className={clases.proyectoLinks} href="https://modelocafe.netlify.app/">Hace click aca para visitar el sitio!</a>
                     <a href="https://modelocafe.netlify.app/"><img src={cafeteria} alt="" className={clases.proyectoImg}/></a>
                 </div>
-                {/* <div className={clases.proyectoDiv}>
+                <div className={clases.proyectoDiv}>
                     <h3 className={clases.proyectoNombre}>FutClothes</h3>
-                    <a className={clases.proyectoLinks} href="">Hace click aca para visitar el sitio!</a>
-                    <img src="#" alt="" className={clases.proyectoImg}/>
-                </div>                 */}
+                    <a className={clases.proyectoLinks} href="https://fut-retro.vercel.app/">Hace click aca para visitar el sitio!</a>
+                    <a href="https://fut-retro.vercel.app/"><img src={futclothes} alt="" className={clases.proyectoImg}/></a>
+                </div>
             </div>
     )
 }
