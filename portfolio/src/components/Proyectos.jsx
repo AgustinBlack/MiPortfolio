@@ -27,11 +27,6 @@ const Proyectos = () => {
                     <a className={clases.proyectoLinks} href="https://fut-retro.vercel.app/">Hace click aca para visitar el sitio!</a>
                     <a href="https://fut-retro.vercel.app/"><img src={futclothes} alt="" className={clases.proyectoImg}/></a>
                 </div>
-                <div className={clases.proyectoDiv}>
-                    <h3 className={clases.proyectoNombre}>Calculadora</h3>
-                    <a className={clases.proyectoLinks} href="https://calculadora-topaz-nine.vercel.app/">Hace click aca para visitar el sitio!</a>
-                    <a href="https://calculadora-topaz-nine.vercel.app/"><img src={futclothes} alt="" className={clases.proyectoImg}/></a>
-                </div>
             </div>
     )
 }

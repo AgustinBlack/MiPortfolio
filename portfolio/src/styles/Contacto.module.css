@@ -9,7 +9,7 @@
 .contactoOpciones{
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     gap: 10px;
 }
 

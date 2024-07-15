@@ -12,7 +12,7 @@ const Inicio = () => {
                 <img className={clases.inicioImg} src={foto} alt=""/>
                 <div>                    
                     <h3 className={clases.inicioTexto}>
-                        Hola! Mi nombre es Guillermo Agustin Black y tengo 19 años.
+                        Hola! Mi nombre es Guillermo Agustin Black y tengo 20 años.
                         <br/> 
                         Soy Desarrollador Web. Este es mi <a href={cv} className={clases.inicioCv}>Curriculum Vitae.</a>
                         <br />
